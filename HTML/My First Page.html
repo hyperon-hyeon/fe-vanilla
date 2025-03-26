@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head> <!--head 웹 문서 해석에 필요한 부분 제공-->
+    <meta charset="UTF-8"> <!--meta 문서정보전달, 인코딩 지정하는 역할-->
+    <title>My First Page</title>
+  </head>
+  <body><!--body 실제 보여지는 부분-->
+    <header>
+      <h1>My Blog</h1>
+      <hr>
+    </header>
+    <main>
+      <h2>20250325</h2>
+      <hr>
+      <article>
+        <h3>오늘의 계획</h3>
+        <p><b>14:00 프론트엔드 스터디</b></p>
+        <ul>
+          <li><a href="#onMarts">온마츠</a> 갈비카츠 먹기</li>
+          <li>디지털영상처리 온라인 강의 수강</li>
+          <li>공공데이터분석PBL 어제 강의 복습 후 실습 과제 해결</li>
+          <li>자료구조 복습</li>
+        </ul>
+        <hr>
+      </article>
+      <article>
+        <table>
+          <caption><h3>오늘의 메뉴</h3></caption>
+          <tr>
+            <td>아점</td>
+            <td>두부조림과 밥</td>
+          </tr>
+          <tr>
+            <td>점저</td>
+            <td>온마츠 갈비카츠</td>
+          </tr>
+          <tr>
+            <td>간식</td>
+            <td>데미소다</td>
+          </tr>
+        </table>
+        <hr>
+      </article>
+      <article>
+        <h3 id="onMarts">온마츠</h3>
+        <img src="img/onMarts.png" alt="온마츠의 시그니처 메뉴 갈비카츠" width="10%" height="10%">
+        <figcaption>온마츠의 시그니쳐, 갈비카츠</figcaption>
+        <a href="https://naver.me/GgWSAdvn" target="_blank">온마츠의 위치(네이버 지도)</a>
+        <hr>
+      </article>
+    </main>
+    <article>
+      <h3>방명록</h3>
+      <form>
+        <fieldset>
+          <legend>작성자 정보 입력</legend>
+          <ul>
+            <li><label>다녀간 사람<input type="text" size="20" id="visitor" placeholder="별명도 가능합니다" required></label></li>
+            <li><label>  다녀간 날짜  <input type="date", id="visitDate" required></label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>남기고 싶은 말</legend>
+          <label for="message"></label>
+          <textarea id="message" cols="170" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit">입력</button>
+      </form>
+      <hr>
+    </article>
+    <aside>
+      <h3>추후 추가 예정</h3>
+    </aside>
+    <footer>
+      <p>made by hyper-on</p>
+    </footer>
+    <style>
+      table, th, td{
+        border: 1px solid black;
+      }
+      th,td{padding: 10px 20px;}
+    </style>
+  </body>
+</html>
