@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Gowun+Batang&display=swap');
+
+body{
+    /*font-family: 'pretendard standard', sans-serif;--!>*/
+    font-family: "Gowun Batang", serif;
+
+    h1{
+        color: rgb(9, 13, 119);
+        text-shadow: 1px 1px rgb(43, 39, 52);
+    }
+
+    h1,h2{
+        text-align: center;
+        letter-spacing: 0.15em;
+    }
+    h3{
+        font-weight: bold;
+        font-weight: bold;
+        background-color: rgb(209, 218, 255);
+        line-height: 2;
+        color:rgb(22, 15, 31);
+        text-align: center;
+    }
+
+    ul{list-style-type: square;}
+        
+    a{text-decoration: none;}
+    
+    table,td,th{
+        border: 1px solid rgb(9, 13, 119);
+        text-align: center;
+        padding: 10px;
+
+    }
+    
+    img{
+        float:left;
+        margin-right: 30px;
+    }
+
+    nav{padding-left:450px}
+
+    nav>ul{list-style: none;}
+    nav ul li{
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin:10px;
+        border: 1px solid rgb(9, 13, 119);
+    }
+
+    article {
+        overflow: hidden; /* CSS의 overflow 속성은 요소의 내용이 요소의 크기를 벗어났을 때 어떻게 처리할지 정의하는 속성 */
+    }
+    
+    #accent{
+        font-weight: bold;
+        background-color: rgb(201, 100, 115);
+        color:black;
+    }
+
+    .field1{
+        width:800px;
+    }
+
+    .box1{
+        width:1000px;
+        height: 300px;
+        border-style: solid;
+        border-color: rgb(9, 13, 119);
+        border-radius: 25px;
+        padding-left: 100px;
+        padding-top:50px;
+    }
+
+    .impact{
+        color:rgb(23, 23, 202);
+        font-weight: bold;
+        font-style: italic;
+        font-size: large;
+    }
+
+}

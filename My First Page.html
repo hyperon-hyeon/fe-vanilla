@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head> <!--head 웹 문서 해석에 필요한 부분 제공-->
+    <meta charset="UTF-8"> <!--meta 문서정보전달, 인코딩 지정하는 역할-->
+    <title>My First Page</title>
+    <link rel="stylesheet" href="Blog Style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  </head>
+  <body><!--body 실제 보여지는 부분-->
+    <header>
+      <h1>My Blog</h1>
+      <hr>
+    </header>
+    <main>
+      <h2>20250325</h2>
+      <hr>
+      <nav>
+        <ul>
+          <li><a href="#todayPlan">오늘의 계획</a></li>
+          <li><a href="#todayMenu">오늘의 메뉴</a></li>
+          <li><a href="#onMarts">온마츠</a></li>
+          <li><a href="#visitorBook">방명록</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <article>
+        <h3 id="todayPlan">오늘의 계획</h3>
+        <p class="impact">
+          <i class="fa-solid fa-pencil" style="color: #082e4b;"></i>
+          <a href="#"></a>
+          14:00 프론트엔드 스터디
+        </p>
+        <ul>
+          <li><a href="#onMarts">온마츠</a> 갈비카츠 먹기</li>
+          <li>디지털영상처리 온라인 강의 수강</li>
+          <li>공공데이터분석PBL 어제 강의 복습 후 실습 과제 해결</li>
+          <li>자료구조 복습</li>
+        </ul>
+        <hr>
+      </article>
+      <article>
+        <table>
+          <h3 id="todayMenu">오늘의 메뉴</h3>
+          <tr>
+            <td>아점</td>
+            <td>두부조림과 밥</td>
+          </tr>
+          <tr>
+            <td>점저</td>
+            <td class="impact">온마츠의 갈비카츠</td>
+          </tr>
+          <tr>
+            <td>간식</td>
+            <td>데미소다</td>
+          </tr>
+        </table>
+        <hr>
+      </article>
+      <article>
+        
+        <h3 id="onMarts">온마츠</h3>
+        <img src="img/onMarts.png" alt="온마츠의 시그니처 메뉴 갈비카츠" width="10%" height="10%">
+        <figcaption>온마츠의 시그니쳐, 갈비카츠</figcaption>
+        <a href="https://naver.me/GgWSAdvn" target="_blank">온마츠의 위치(네이버 지도)</a>
+      </article>
+      <hr>
+    </main>
+    <article>
+      <h3 id="visitorBook">방명록</h3>
+      <div class="box1">
+        <form>
+          <fieldset class="field1">
+            <legend>작성자 정보 입력</legend>
+            <ul>
+              <li><label>다녀간 사람<input type="text" size="20" id="visitor" placeholder="별명도 가능합니다" required></label></li>
+              <li><label>  다녀간 날짜  <input type="date", id="visitDate" required></label></li>
+            </ul>
+          </fieldset>
+          <fieldset class="field1">
+            <legend>남기고 싶은 말</legend>
+            <label for="message"></label>
+            <textarea id="message"  rows="4" required></textarea>
+          </fieldset>
+          <button type="submit">입력</button>
+        </form>
+      </div>
+      <hr>
+    </article>
+    <aside>
+      <h3 id="accent">추후 추가 예정</h3>
+    </aside>
+    <footer>
+      <dl>
+        <dt>made by hyper-on</dt>
+        <dd>ver.1(HTML) - 20250325</dd>
+        <dd>ver.2(CSS) - 20250331</dd>
+    </footer>
+    <style>
+      table, th, td{
+        border: 1px solid black;
+      }
+      th,td{padding: 10px 20px;}
+    </style>
+  </body>
+</html>
