@@ -105,6 +105,6 @@ body{
 
 @media (max-width:425px){
     body{
-        background: rgb(228, 235, 255); /* 또는 background-color: bisque; */
+        background: rgb(246, 207, 207); /* 또는 background-color: bisque; */
     }
 }
