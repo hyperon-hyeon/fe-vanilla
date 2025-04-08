@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Gowun+Batang&display=swap');
 
+
+
 body{
     /*font-family: 'pretendard standard', sans-serif;--!>*/
     font-family: "Gowun Batang", serif;
@@ -43,7 +45,10 @@ body{
         margin-right: 30px;
     }
 
-    nav{padding-left:450px}
+    nav{
+        padding:10px;
+        text-align: center;
+    }
 
     nav>ul{list-style: none;}
     nav ul li{
@@ -95,5 +100,11 @@ body{
         font-weight: bold;
         font-style: italic;
         font-size: large;
+    }
+}
+
+@media (max-width:425px){
+    body{
+        background: rgb(228, 235, 255); /* 또는 background-color: bisque; */
     }
 }
