@@ -1,0 +1,14 @@
+h1{
+    background-color: rgb(255, 255, 184);
+    text-align: center;
+}
+h3{
+    text-decoration:underline;
+}
+#redColor{
+    color:red;
+}
+
+#greenColor{
+    color: green;
+}
