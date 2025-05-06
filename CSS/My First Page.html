@@ -59,6 +59,11 @@
       <article>
         <h3 id="onMarts">온마츠</h3>
         <img src="img/onMarts.png" alt="온마츠의 시그니처 메뉴 갈비카츠" width="10%" height="10%">
+        <div class="caption">
+          <h2>온마츠의 닭다리살 갈비카츠</h2>
+          <p>가격: 12,800원</p>
+          <p>같이 나오는 소스와 함께 먹으면 맛있어요</p>
+        </div>
         <figcaption>온마츠의 시그니쳐, 갈비카츠</figcaption>
         <a href="https://naver.me/GgWSAdvn" target="_blank">온마츠의 위치(네이버 지도)</a>
       </article>
@@ -67,20 +72,20 @@
     <article>
       <h3 id="visitorBook">방명록</h3>
       <div class="box1">
-        <form>
+        <form id="visit">
           <fieldset class="field1">
             <legend>작성자 정보 입력</legend>
             <ul>
-              <li><label>다녀간 사람<input type="text" size="20" id="visitor" placeholder="별명도 가능합니다" required></label></li>
-              <li><label>  다녀간 날짜  <input type="date", id="visitDate" required></label></li>
+              <li><label>다녀간 사람<input type="text" id="visitor" placeholder="별명도 가능합니다" required></label></li>
+              <li><label>다녀간 날짜<input type="date" id="visitDate" required></label></li>
             </ul>
           </fieldset>
           <fieldset class="field1">
             <legend>남기고 싶은 말</legend>
             <label for="message"></label>
-            <textarea id="message"  rows="4" required></textarea>
+            <textarea id="message" rows="4" required></textarea>
           </fieldset>
-          <button type="submit">입력</button>
+          <button id="submit" type="submit">입력</button>
         </form>
       </div>
       <hr>
